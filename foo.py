@@ -1,5 +1,6 @@
 import ctypes
 # https://pgi-jcns.fz-juelich.de/portal/pages/using-c-from-python.html
+# https://docs.python.org/3/library/ctypes.html#module-ctypes
 _sum = ctypes.CDLL('sum.dll')
 callback_type = ctypes.CFUNCTYPE(ctypes.c_int, ctypes.c_float, ctypes.c_float)
 
