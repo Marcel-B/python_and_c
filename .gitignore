@@ -1,0 +1,7 @@
+*.lib
+*.dll
+*.exp
+*.obj
+
+.vscode
+__pycache__
