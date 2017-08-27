@@ -2,6 +2,7 @@
 *.dll
 *.exp
 *.obj
-
+docs\html\
+docs\latex\
 .vscode
 __pycache__
