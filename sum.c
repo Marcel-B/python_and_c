@@ -1,5 +1,6 @@
 
-__declspec(dllexport) typedef int (*callback_type)(float, float);
+#include "sum.h"
+
 __declspec(dllexport) int test_function(int num_numbers, int *number, callback_type abc){
 	int i;
 	int sum = 0;

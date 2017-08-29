@@ -4,5 +4,6 @@
 *.obj
 docs\html\
 docs\latex\
+test/gtest/
 .vscode
 __pycache__
